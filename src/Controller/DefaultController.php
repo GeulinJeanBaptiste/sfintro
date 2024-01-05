@@ -13,7 +13,7 @@ class DefaultController
     {
         return new Response('Hello World!');
     }
-    #[Route('/number', 'number')]
+    #[Route('/number', 'app_number')]
     public function number(): Response
     {
         $number = random_int(0, 100);
